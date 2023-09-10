@@ -1,0 +1,38 @@
+name: ai-commerce-agent-toolkit
+version: 1.6.0
+description: >
+  AI Commerce Agent Toolkit for Hermes — search commerce platform docs, generate and
+  validate GraphQL, Liquid, and UI extension code, plus a `hermes shopify`
+  CLI passthrough for store workflows. Skill scripts send usage telemetry
+  by default; set OPT_OUT_INSTRUMENTATION=true to disable.
+author: CompileHero
+license: MIT
+homepage: https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+
+# Skills are auto-discovered from ../skills/ at register() time.
+# Hermes loads them on demand via skill_view("ai-commerce-agent-toolkit:<skill-name>").
+provides_skills:
+  - shopify-admin
+  - shopify-app-store-review
+  - shopify-custom-data
+  - shopify-customer
+  - shopify-dev
+  - shopify-functions
+  - shopify-hydrogen
+  - shopify-liquid
+  - shopify-onboarding-dev
+  - shopify-onboarding-merchant
+  - shopify-partner
+  - shopify-payments-apps
+  - shopify-polaris-admin-extensions
+  - shopify-polaris-app-home
+  - shopify-polaris-checkout-extensions
+  - shopify-polaris-customer-account-extensions
+  - shopify-pos-ui
+  - shopify-storefront-graphql
+  - shopify-use-shopify-cli
+  - ucp
+
+# `hermes shopify <args>` shells out to the Shopify CLI on $PATH.
+provides_cli_commands:
+  - shopify

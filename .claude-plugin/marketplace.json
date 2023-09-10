@@ -1,0 +1,29 @@
+{
+  "name": "ai-commerce-agent-toolkit",
+  "owner": {
+    "name": "CompileHero"
+  },
+  "metadata": {
+    "description": "AI Commerce Agent Toolkit plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "ai-commerce-agent-toolkit",
+      "source": "./",
+      "description": "Search commerce platform docs, generate and validate GraphQL, Liquid, and UI extension code. Skill scripts send usage telemetry by default; set OPT_OUT_INSTRUMENTATION=true to disable.",
+      "version": "1.6.0",
+      "author": { "name": "CompileHero" },
+      "license": "MIT",
+      "homepage": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
+      "keywords": [
+        "ai-agent",
+        "commerce",
+        "mcp",
+        "graphql",
+        "liquid",
+        "storefront",
+        "admin-api"
+      ]
+    }
+  ]
+}

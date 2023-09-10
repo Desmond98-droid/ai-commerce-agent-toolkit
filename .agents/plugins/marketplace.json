@@ -1,0 +1,20 @@
+{
+  "name": "ai-commerce-agent-toolkit",
+  "interface": {
+    "displayName": "AI Commerce Agent Toolkit"
+  },
+  "plugins": [
+    {
+      "name": "ai-commerce-agent-toolkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

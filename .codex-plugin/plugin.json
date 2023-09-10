@@ -1,0 +1,29 @@
+{
+  "name": "ai-commerce-agent-toolkit",
+  "version": "1.6.0",
+  "description": "AI Commerce Agent Toolkit for OpenAI Codex — search commerce platform docs, generate and validate GraphQL, Liquid, and UI extension code. Skill scripts send usage telemetry by default; set OPT_OUT_INSTRUMENTATION=true to disable.",
+  "author": { "name": "CompileHero" },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
+  "repository": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
+  "license": "MIT",
+  "keywords": ["ai-agent", "commerce", "graphql", "liquid", "storefront", "admin-api"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Commerce Agent Toolkit",
+    "shortDescription": "Search commerce docs, validate GraphQL & Liquid, build commerce apps faster.",
+    "longDescription": "Search live commerce platform documentation, generate and validate Admin API GraphQL, Storefront API queries, Liquid theme code, and UI extension components — all without leaving your workflow.",
+    "developerName": "CompileHero",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "logo": "./assets/shopify_glyph.svg",
+    "composerIcon": "./assets/shopify_glyph.svg",
+    "brandColor": "#0F766E",
+    "websiteURL": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
+    "defaultPrompt": [
+      "How do I create a product using the Admin API?",
+      "Generate a Liquid section with a product image gallery",
+      "Validate my GraphQL query against the Storefront API schema",
+      "Create a cart validation Function requiring minimum 5 items"
+    ]
+  }
+}

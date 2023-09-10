@@ -1,0 +1,30 @@
+{
+  "name": "ai-commerce-agent-toolkit",
+  "version": "1.6.0",
+  "private": true,
+  "description": "AI Commerce Agent Toolkit — multi-harness agent skills for commerce development, docs search, and code validation",
+  "author": "CompileHero",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit.git"
+  },
+  "keywords": [
+    "ai-agent",
+    "commerce",
+    "mcp",
+    "graphql",
+    "liquid",
+    "storefront",
+    "admin-api",
+    "plugin",
+    "developer-tools",
+    "pi-package"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
