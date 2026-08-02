@@ -45,8 +45,6 @@ Each skill is a self-contained folder under `skills/` with instructions, optiona
 
 ## Installation
 
-Replace `YOUR_GITHUB_USERNAME` with your GitHub account or organization.
-
 ### Claude Code
 
 ```bash
@@ -56,7 +54,7 @@ claude plugin install ai-commerce-agent-toolkit
 Or add from source:
 
 ```text
-/plugin marketplace add YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+/plugin marketplace add Desmond98-droid/ai-commerce-agent-toolkit
 /plugin install ai-commerce-agent-toolkit@ai-commerce-agent-toolkit
 ```
 
@@ -81,32 +79,32 @@ codex plugin add ai-commerce-agent-toolkit
 3. Paste:
 
 ```text
-https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+https://github.com/Desmond98-droid/ai-commerce-agent-toolkit
 ```
 
 ### Hermes
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit/main/.hermes-plugin/install.sh -o /tmp/acat-hermes-install.sh
+curl -fsSL https://raw.githubusercontent.com/Desmond98-droid/ai-commerce-agent-toolkit/main/.hermes-plugin/install.sh -o /tmp/acat-hermes-install.sh
 bash /tmp/acat-hermes-install.sh
 ```
 
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+gemini extensions install https://github.com/Desmond98-droid/ai-commerce-agent-toolkit
 ```
 
 ### Pi
 
 ```bash
-pi install git:github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+pi install git:github.com/Desmond98-droid/ai-commerce-agent-toolkit
 ```
 
 ### Antigravity
 
 ```bash
-agy plugin install https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+agy plugin install https://github.com/Desmond98-droid/ai-commerce-agent-toolkit
 ```
 
 ## Usage Examples
@@ -161,7 +159,7 @@ export OPT_OUT_INSTRUMENTATION=true
 ### Local development
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit.git
+git clone https://github.com/Desmond98-droid/ai-commerce-agent-toolkit.git
 cd ai-commerce-agent-toolkit
 
 # Skills with local deps (e.g. Liquid / UI validation)

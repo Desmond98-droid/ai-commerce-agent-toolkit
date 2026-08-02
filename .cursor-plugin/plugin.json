@@ -4,8 +4,8 @@
   "version": "1.6.0",
   "author": { "name": "CompileHero" },
   "logo": "../assets/shopify_glyph.svg",
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
-  "repository": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit",
+  "homepage": "https://github.com/Desmond98-droid/ai-commerce-agent-toolkit",
+  "repository": "https://github.com/Desmond98-droid/ai-commerce-agent-toolkit",
   "license": "MIT",
   "keywords": ["ai-agent", "commerce", "mcp", "graphql", "liquid", "storefront", "admin-api"]
 }

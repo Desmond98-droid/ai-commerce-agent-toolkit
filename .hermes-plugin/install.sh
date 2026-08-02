@@ -8,7 +8,7 @@
 # Re-running this command updates to the latest published version. Idempotent.
 set -euo pipefail
 
-REPO_URL="https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit"
+REPO_URL="https://github.com/Desmond98-droid/ai-commerce-agent-toolkit"
 REPO_DIR="$HOME/.hermes/repos/ai-commerce-agent-toolkit"
 PLUGIN_LINK="$HOME/.hermes/plugins/ai-commerce-agent-toolkit"
 

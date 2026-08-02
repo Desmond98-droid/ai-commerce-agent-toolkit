@@ -7,7 +7,7 @@ does, the full skill list, and telemetry details, see the
 ## Install
 
 ```
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit/main/.hermes-plugin/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Desmond98-droid/ai-commerce-agent-toolkit/main/.hermes-plugin/install.sh | bash
 ```
 
 Re-running the command updates to the latest published version.

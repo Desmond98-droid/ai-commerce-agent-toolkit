@@ -40,7 +40,7 @@ installs:
 The plugin manifests are auto-loaded when the user installs the plugin
 (e.g. `gemini extensions install`, `/plugin install ...`). The
 skill-frontmatter block is what fires when a user installs skills
-directly — e.g. `npx skills add YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit` — on an
+directly — e.g. `npx skills add Desmond98-droid/ai-commerce-agent-toolkit` — on an
 agent that supports frontmatter hooks. Without the frontmatter block,
 those standalone installs emit no skill telemetry at all.
 
@@ -159,7 +159,7 @@ echo '{"hook_event_name":"PostToolUse","tool_name":"Skill","tool_input":{"skill"
   | bash scripts/track-telemetry.sh
 
 # SKILL.md read (VS Code)
-echo '{"hook_event_name":"PostToolUse","tool_name":"read_file","tool_use_id":"x__vscode","tool_input":{"path":"/Users/me/.vscode/agent-plugins/github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit/.github/plugins/ai-commerce-agent-toolkit/skills/shopify-liquid/SKILL.md"}}' \
+echo '{"hook_event_name":"PostToolUse","tool_name":"read_file","tool_use_id":"x__vscode","tool_input":{"path":"/Users/me/.vscode/agent-plugins/github.com/Desmond98-droid/ai-commerce-agent-toolkit/.github/plugins/ai-commerce-agent-toolkit/skills/shopify-liquid/SKILL.md"}}' \
   | bash scripts/track-telemetry.sh
 
 # Opt-out (no network call)
@@ -187,7 +187,7 @@ PowerShell parity tests are out of scope today (no `pwsh` in CI matrix); the `.p
 
 This directory lives at `packages/plugins/hooks/` in `ai-toolkit-source`
 and rsyncs to `/hooks/` at the root of the public
-`YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit` mirror — matching the layout each agent's
+`Desmond98-droid/ai-commerce-agent-toolkit` mirror — matching the layout each agent's
 plugin loader expects (`${CLAUDE_PLUGIN_ROOT}/hooks/...`,
 `${CURSOR_PLUGIN_ROOT}/hooks/...`, `${PLUGIN_ROOT}/hooks/...`).
 

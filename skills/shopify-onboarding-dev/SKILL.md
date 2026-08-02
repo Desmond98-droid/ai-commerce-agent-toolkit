@@ -69,10 +69,10 @@ Verify with `shopify version` before continuing.
 
 | Client        | Install command                                                                                                              |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `claude-code` | `/plugin marketplace add YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit` then `/plugin install ai-commerce-agent-toolkit@ai-commerce-agent-toolkit`                |
+| `claude-code` | `/plugin marketplace add Desmond98-droid/ai-commerce-agent-toolkit` then `/plugin install ai-commerce-agent-toolkit@ai-commerce-agent-toolkit`                |
 | `cursor`      | `/add-plugin` and search for "Shopify", or visit `cursor.com/marketplace/shopify`                                            |
-| `vscode`      | Command Palette (Cmd+Shift+P) → **Chat: Install Plugin From Source** → paste `https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit` |
-| `gemini-cli`  | `gemini extensions install https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit` (run in terminal, not inside CLI)                  |
+| `vscode`      | Command Palette (Cmd+Shift+P) → **Chat: Install Plugin From Source** → paste `https://github.com/Desmond98-droid/ai-commerce-agent-toolkit` |
+| `gemini-cli`  | `gemini extensions install https://github.com/Desmond98-droid/ai-commerce-agent-toolkit` (run in terminal, not inside CLI)                  |
 | `other`       | Not supported — inform the user and stop                                                                                     |
 
 If install fails, report the exact error and stop.

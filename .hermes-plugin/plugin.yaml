@@ -7,7 +7,7 @@ description: >
   by default; set OPT_OUT_INSTRUMENTATION=true to disable.
 author: CompileHero
 license: MIT
-homepage: https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit
+homepage: https://github.com/Desmond98-droid/ai-commerce-agent-toolkit
 
 # Skills are auto-discovered from ../skills/ at register() time.
 # Hermes loads them on demand via skill_view("ai-commerce-agent-toolkit:<skill-name>").

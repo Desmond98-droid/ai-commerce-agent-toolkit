@@ -8,7 +8,7 @@
       "name": "ai-commerce-agent-toolkit",
       "source": {
         "source": "url",
-        "url": "https://github.com/YOUR_GITHUB_USERNAME/ai-commerce-agent-toolkit.git"
+        "url": "https://github.com/Desmond98-droid/ai-commerce-agent-toolkit.git"
       },
       "policy": {
         "installation": "AVAILABLE",
